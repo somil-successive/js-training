@@ -1,6 +1,7 @@
 //  Write a program to take input(age, name, phone no.) from user and display it
 
-const name = prompt("Enter Your Name: ");
-const age = prompt("Enter Your Age: ");
-const phone = prompt("Enter Your Phone Number: ");
-alert(name + " " + age + " " + phone);
+const age = prompt("Input age");
+const name = prompt("Input name");
+const phoneNumber = prompt("Input phone number");
+
+console.log("Age : " + age + ", Name : " + name + ", Phone number : " + phoneNumber);

@@ -7,3 +7,6 @@ function checkEvenOrOdd(number) {
     return false;
   }
 }
+
+const result = checkEvenOrOdd(-2);
+console.log(result);

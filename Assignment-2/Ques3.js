@@ -7,3 +7,6 @@ function getName() {
 function greetPerson(getName) {
   return "Welcome " + getName();
 }
+
+const message = greetPerson(getName);
+console.log(message);
