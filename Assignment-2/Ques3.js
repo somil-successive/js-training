@@ -1,14 +1,9 @@
-
 // Write a function expression that takes in another function as an argument
 
-
-function getName(){
-    return "Somil" ;
+function getName() {
+  return "Somil";
 }
 
-function greetPerson(name){
-
-    return("Welcome "+ name);
+function greetPerson(getName) {
+  return "Welcome " + getName();
 }
-
-console.log(greetPerson(getName()));

@@ -1,8 +1,5 @@
-
 // Write a function expression that takes in two numbers and returns their sum.
 
-function getSum(first,second) {    
-    return first+second;
+function findSum(first_number, second_number) {
+  return first_number + second_number;
 }
-
-console.log(getSum(2,6));
