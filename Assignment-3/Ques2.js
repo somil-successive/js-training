@@ -11,6 +11,8 @@ function printPattern1() {
     console.log(row);
   }
 }
+printPattern1();
+console.log();
 
 function printPattern2() {
   for (let i = 1; i <= 4; i++) {
@@ -21,6 +23,8 @@ function printPattern2() {
     console.log(row);
   }
 }
+printPattern2();
+console.log();
 
 function printPattern3() {
   let counter = 5;
@@ -37,3 +41,4 @@ function printPattern3() {
     }
   }
 }
+printPattern3();

@@ -24,3 +24,4 @@ function printDiamondPattern() {
     console.log(row);
   }
 }
+printDiamondPattern();

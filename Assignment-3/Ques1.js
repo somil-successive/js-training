@@ -1,23 +1,29 @@
 // Write a program to perform functionality of a calculator (add,sub,multiply,divide)
 
-const sumOfNumbers = (a, b) => a + b;
+const sumOfNumbers = (firstNumber, secondNumber) => firstNumber + secondNumber;
 
-const subtractionOfNumbers = (a, b) => a - b;
+const subtractionOfNumbers = (firstNumber, secondNumber) =>
+  firstNumber - secondNumber;
 
-const multiplicationOfNumbers = (a, b) => a * b;
+const multiplicationOfNumbers = (firstNumber, secondNumber) =>
+  firstNumber * secondNumber;
 
-const divisionOfNumbers = (a, b) => a / b;
+const divisionOfNumbers = (firstNumber, secondNumber) =>
+  firstNumber / secondNumber;
 
-function calculator(first_number, second_number, operator) {
+function calculator(first, second, operator) {
   if (operator === "+") {
-    return sumOfNumbers(first_number, second_number);
+    return sumOfNumbers(first, second);
   } else if (operator === "-") {
-    return subtractionOfNumbers(first_number, second_number);
+    return subtractionOfNumbers(first, second);
   } else if (operator === "*") {
-    return multiplicationOfNumbers(first_number, second_number);
+    return multiplicationOfNumbers(first, second);
   } else if (operator === "/") {
-    return divisionOfNumbers(first_number, second_number);
+    return divisionOfNumbers(first, second);
   } else {
     return "Invalid";
   }
 }
+
+const result = calculator(2, 6, "*");
+console.log(result);

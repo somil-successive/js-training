@@ -13,3 +13,4 @@ function printFibonacciSeries(range) {
     second_term = third_term;
   }
 }
+printFibonacciSeries(12);

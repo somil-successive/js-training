@@ -15,12 +15,13 @@ function isPrimeNumber(number) {
   }
 }
 
-function printPrimeNumber() {
-  let prime_numbers = "";
+function printPrimeNumbers() {
+  let primeNumbers = "";
   for (let i = 1; i <= 50; i++) {
     if (isPrimeNumber(i)) {
-      prime_numbers += i + " ";
+      primeNumbers += i + " ";
     }
   }
-  console.log(prime_numbers);
+  console.log("Prime Numbers are: " + primeNumbers);
 }
+printPrimeNumbers();

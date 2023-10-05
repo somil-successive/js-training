@@ -7,7 +7,10 @@ function printEvenThenOdd(range) {
   for (let i = 1; i <= range; i++) {
     if (i % 2 == 0) {
       even += i + " ";
-    } else {
+    }
+  }
+  for (let i = 1; i <= range; i++) {
+    if (i % 2 != 0) {
       odd += i + " ";
     }
   }
@@ -16,3 +19,6 @@ function printEvenThenOdd(range) {
 
   return result;
 }
+
+const series = printEvenThenOdd(13);
+console.log(series);

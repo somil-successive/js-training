@@ -16,3 +16,5 @@ function printEvenThenOddInOneIteration(range) {
 
   return result;
 }
+const series = printEvenThenOddInOneIteration(10);
+console.log(series);
