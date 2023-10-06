@@ -1,5 +1,7 @@
 // Write a function expression that takes in two numbers and returns their sum.
 
-function findSum(first_number, second_number) {
-  return first_number + second_number;
+function computeSum(firstNumber, secondNumber) {
+  return firstNumber + secondNumber;
 }
+const sumOfNumbers = computeSum(-3, -2);
+console.log(sumOfNumbers);

@@ -3,3 +3,5 @@
 function findSquare(number) {
   return number * number;
 }
+const squareOfNumber = findSquare(-2);
+console.log("Square of number is: " + squareOfNumber);
